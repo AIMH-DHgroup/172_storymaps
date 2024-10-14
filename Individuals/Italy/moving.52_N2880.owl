@@ -1,0 +1,3188 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:crmgeo="https://dlnarratives.eu/crmgeo/"
+     xmlns:crminf="https://dlnarratives.eu/crminf/"
+     xmlns:current="http://erlangen-crm.org/current/"
+     xmlns:ontology="https://dlnarratives.eu/ontology#"
+     xmlns:geosparql="http://www.opengis.net/ont/geosparql#">
+    <Ontology/>
+    
+        <!-- http://erlangen-crm.org/current/E5_Event -->
+
+
+    <NamedIndividual rdf:about="http://erlangen-crm.org/current/E5_Event"/>
+    
+
+
+    <!-- http://erlangen-crm.org/current/P12_occurred_in_the_presence_of -->
+
+
+    <NamedIndividual rdf:about="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+    
+
+
+    <!-- http://erlangen-crm.org/current/P7_took_place_at -->
+
+
+    <NamedIndividual rdf:about="http://erlangen-crm.org/current/P7_took_place_at"/>
+    
+
+
+    <!-- http://wikidata.org/entity/Q17295 -->
+
+
+    <NamedIndividual rdf:about="http://wikidata.org/entity/Q17295">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP3_Reference_Space"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.opengis.net/def/crs/OGC/1.3/CRS84 -->
+
+
+    <NamedIndividual rdf:about="http://www.opengis.net/def/crs/OGC/1.3/CRS84">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP4_Spatial_Coordinate_Reference_System"/>
+        <crmgeo:Q7_describes rdf:resource="http://wikidata.org/entity/Q17295"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1006733 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q1006733"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q107425 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q107425"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q10943 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q10943"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1243 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q1243"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1286 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q1286"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1309100 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q1309100"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q131512 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q131512"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q131596 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q131596"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q15284 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q15284"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q174165 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q174165"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q2028 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q2028"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q22698 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q22698"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q22856 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q22856"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q23392 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q23392"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q2625603 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q2625603"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q334508 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q334508"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q3376 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q3376"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q34876 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q34876"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q38 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q38"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q46829 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q46829"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q484847 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q484847"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q55638 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q55638"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q55639 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q55639"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q55640 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q55640"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q637776 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q637776"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q63817 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q63817"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q641 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q641"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q656365 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q656365"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q723897 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q723897"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q841774 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q841774"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q8495 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q8495"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q8502 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q8502"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q9323634 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q9323634"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q937540 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q937540"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q994873 -->
+
+
+    <NamedIndividual rdf:about="http://www.wikidata.org/entity/Q994873"/>
+    
+
+
+    <!-- https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file&amp;amp;wpvalue=Italy%20on%20the%20globe%20%28Europe%20centered%29.svg&amp;amp;width=700&amp;amp;type=.jpg -->
+
+
+    <NamedIndividual rdf:about="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file&amp;amp;wpvalue=Italy%20on%20the%20globe%20%28Europe%20centered%29.svg&amp;amp;width=700&amp;amp;type=.jpg">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <current:P67_refers_to rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Challenges -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Challenges">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Challenges</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Employment -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Employment">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Employment</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Geography_and_population -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Geography_and_population">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Geography and population</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Income_and_gross_value_added -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Income_and_gross_value_added">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Income and gross value added</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Innovation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Innovation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Innovation</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Interest_on_this_VC -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Interest_on_this_VC">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Interest on this VC</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Key_local_assets -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Key_local_assets">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Key local assets</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Mountain_landscape_and_reference_chains -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Mountain_landscape_and_reference_chains">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Mountain landscape and reference chains</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/Tourism -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/Tourism">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Tourism</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/appellation/With_a_open-air_grazing_in_a_regional_natural_park,_it_is_produced_and_processed_high-quality_milk -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/appellation/With_a_open-air_grazing_in_a_regional_natural_park,_it_is_produced_and_processed_high-quality_milk">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>With a open-air grazing in a regional natural park, it is produced and processed high-quality milk</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/geometry/56 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/geometry/56">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP5_Geometric_Place_Expression"/>
+        <crmgeo:Q9_is_expressed_in_terms_of rdf:resource="http://www.opengis.net/def/crs/OGC/1.3/CRS84"/>
+        <geosparql:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">&lt;gml:MultiPolygon srsName=&apos;http://www.opengis.net/def/crs/OGC/1.3/CRS84&apos;&gt;
+  &lt;gml:polygonMember&gt;
+    &lt;gml:Polygon&gt;
+      &lt;gml:outerBoundaryIs&gt;
+        &lt;gml:LinearRing&gt;
+          &lt;gml:coordinates&gt;
+            16.5637843,48.1385371 16.4786368,48.1483738 16.3474471,47.9914562 16.208355,47.9229107 16.2247436,47.8719308 16.0807278,47.7254502 16.231389,47.7302235 16.3486178,47.8186434 16.3981464,47.7085419 16.5913792,47.6654326 
+            16.5769799,47.6190986 16.4073466,47.6045695 16.3840325,47.562057 16.3768383,47.4986092 16.4941216,47.4677882 16.530067,47.3446343 16.3735984,47.2829109 16.3807803,47.2306361 16.1720823,47.3090407 16.0949705,47.243464 
+            16.0210921,47.1604656 15.9892259,47.0523481 15.823745,46.9422938 15.6499922,46.7057582 15.6574372,46.4676549 15.563864,46.3831339 15.5768663,46.3049817 15.3999291,46.2107348 15.0920437,46.2580111 14.9978388,46.1572976 
+            14.90922,46.1566376 14.702272,46.2607111 14.536017,46.2480931 14.1263391,46.4103707 14.0854331,46.3456697 14.3449422,46.2439625 14.2888766,46.1754014 14.1694025,46.2243806 14.0208196,46.1908226 13.9758168,46.2151488 
+            13.8613214,46.1521274 13.7405114,46.1517053 13.5892663,46.0429026 13.6540007,45.9803812 13.5414132,45.9360773 13.4621074,45.9773688 13.4472835,46.1023534 13.2579187,46.1638984 13.2242063,46.2180766 13.1571393,46.2374116 
+            13.1199813,46.3082309 13.0066989,46.2040558 12.8993936,46.1771437 12.7837671,46.2173135 12.6626592,46.1721413 12.4641308,45.9744456 12.3218659,45.9889409 12.0614432,45.8885745 11.9732199,45.8046935 11.7306049,45.7789106 
+            11.6905104,45.6692969 11.5497769,45.5492421 10.9947116,45.4264543 10.6467999,45.4148126 10.2229812,45.5398142 10.0724897,45.6268417 9.6981482,45.7051193 9.4820192,45.7108578 9.3938339,45.8469855 9.0817548,45.7915638 
+            8.8303102,45.8498015 8.5946776,45.8281027 8.6034874,45.7264338 8.4721306,45.7297915 8.3594415,45.6490805 8.3676175,45.621256 8.2294959,45.5674897 8.0709724,45.5759779 8.0071494,45.5484498 8.0177238,45.4872742 
+            8.1128912,45.4485124 8.0963283,45.4163224 7.9544934,45.4728686 7.8618827,45.4663952 7.8740053,45.5163946 7.8344668,45.5279822 7.8135966,45.4377311 7.7213286,45.3773524 7.685623,45.3927846 7.6243085,45.3373085 
+            7.641654,45.3180935 7.5776174,45.3056582 7.6506039,45.2961434 7.7673336,45.2011513 7.4911307,45.2710209 7.6327508,45.146211 7.4533412,45.1494253 7.5213431,45.097761 7.4840925,45.0729146 7.5191113,45.0742482 
+            7.5102827,45.0502354 7.4312207,45.0339872 7.4617245,44.9961361 7.3922365,44.9837368 7.3375423,44.9268235 7.3561232,44.8982248 7.3036771,44.8800257 7.2886109,44.8077119 7.3694719,44.7140033 7.390877,44.6595762 
+            7.365481,44.6345411 7.4916123,44.6443317 7.4651755,44.5111389 7.3804734,44.47675 7.4299942,44.4197423 7.4050831,44.4081413 7.474208,44.3747305 7.4567967,44.3322845 7.6801297,44.3189358 7.724075,44.3653424 
+            7.7663037,44.3334265 7.8902188,44.4414235 8.0663365,44.3708365 8.2585859,44.3672749 8.3817569,44.323489 8.4538464,44.2675581 8.4251685,44.1955041 8.2702305,44.1400442 8.1632441,43.9924443 8.173759,43.9546525 
+            8.0727132,43.8910706 7.6728163,43.7756906 7.5217854,43.7846226 7.3381862,43.7121361 7.331289,43.674706 7.316434,43.706589 7.2451832,43.689948 7.2127787,43.6477792 7.1363844,43.6362918 7.1384248,43.5459191 
+            7.0969284,43.5710089 7.0383594,43.535136 6.9627311,43.5420135 6.9238041,43.4506657 6.8553753,43.4112579 6.7263432,43.4105747 6.488857,43.4990947 6.1851508,43.7245292 6.0566321,43.7073205 5.8973716,43.7586369 
+            5.9531013,43.9916175 6.0140732,44.0379717 5.9078079,44.1161905 5.60774,44.1640858 5.1727893,44.1455561 5.2215076,44.5329603 5.1856609,44.6250831 5.045574,44.661887 5.0718976,44.8804909 5.2366217,45.0556444 
+            5.338079,45.0201915 5.3542453,45.1028808 5.5409937,45.2737853 5.8093368,45.4524208 6.1313383,45.8982612 6.3029101,46.025589 6.4639091,46.0647152 6.3828017,46.0880291 6.3600548,46.1608231 6.2947452,46.1902526 
+            6.3402048,46.2577135 6.4456447,46.2854182 6.5574916,46.3967682 6.7176255,46.407739 6.9229008,46.3703866 6.8975543,46.4496445 6.9485103,46.5863082 7.1100571,46.6044214 7.1090095,46.6764955 7.1846454,46.7239635 
+            7.3008389,46.7220644 7.4679232,46.7806746 7.5143036,46.7239635 7.6236941,46.7109588 7.6534451,46.7848278 7.8528812,46.8137692 7.9496559,46.9095187 8.1131471,46.992688 8.3516498,47.0308198 8.5025465,47.1253669 
+            8.8458471,47.2141616 8.8909713,47.3391339 8.8651634,47.3530018 8.8933106,47.3657359 8.8612219,47.3810528 8.8532458,47.4701787 9.0333336,47.4032766 9.3994783,47.4112582 9.4782893,47.4899604 9.6460256,47.5259531 
+            9.681019,47.491877 9.7457813,47.5056401 9.735157,47.5465009 9.8043713,47.6210362 10.0028403,47.6134535 10.0738676,47.6649554 10.0731556,47.7580134 10.13923,47.7787037 10.2378822,47.7325427 10.2747572,47.680355 
+            10.2695329,47.6122346 10.4324899,47.6539432 10.4534831,47.6203865 10.6416469,47.5691194 10.7297731,47.5950506 10.7399984,47.6530289 10.8272143,47.7172183 10.9267735,47.7289429 10.9826778,47.6765305 11.1289912,47.6410262 
+            11.2962362,47.6841559 11.3302912,47.6439126 11.4088793,47.7413381 11.6663274,47.7684173 11.7558837,47.7396326 11.8897662,47.8058691 12.1011242,47.8450447 12.3121763,47.8014558 12.3564606,47.8226906 12.4576651,47.7651793 
+            12.8154408,47.8427166 12.881735,47.7733953 12.9951668,47.7649745 13.0575378,47.7230754 13.0828916,47.7318759 13.0760664,47.7831268 13.006133,47.8504333 13.5057669,48.023232 13.8075319,47.9904333 13.8151925,47.9490839 
+            13.9498898,47.9605026 14.1236108,47.8670777 14.1967389,47.9487762 14.4607541,47.9158821 14.594499,47.9334214 14.7362964,47.9927654 14.8536461,48.1179402 15.0112398,48.1154615 15.1258194,48.2095161 15.3486454,48.2435391 
+            15.4030703,48.2859552 15.4111604,48.3567616 15.4978372,48.4091777 15.5317182,48.3840096 15.8504791,48.3796981 15.9420596,48.3399262 16.2858463,48.3514949 16.4129149,48.2228847 16.5637843,48.1385371 
+          &lt;/gml:coordinates&gt;
+        &lt;/gml:LinearRing&gt;
+      &lt;/gml:outerBoundaryIs&gt;
+    &lt;/gml:Polygon&gt;
+  &lt;/gml:polygonMember&gt;
+&lt;/gml:MultiPolygon&gt;
+</geosparql:asGML>
+        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">&lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; MULTIPOLYGON(((16.5637843 48.1385371,16.4786368 48.1483738,16.3474471 47.9914562,16.2083550 47.9229107,16.2247436 47.8719308,16.0807278 47.7254502,16.2313890 47.7302235,16.3486178 47.8186434,16.3981464 47.7085419,16.5913792 47.6654326,16.5769799 47.6190986,16.4073466 47.6045695,16.3840325 47.5620570,16.3768383 47.4986092,16.4941216 47.4677882,16.5300670 47.3446343,16.3735984 47.2829109,16.3807803 47.2306361,16.1720823 47.3090407,16.0949705 47.2434640,16.0210921 47.1604656,15.9892259 47.0523481,15.8237450 46.9422938,15.6499922 46.7057582,15.6574372 46.4676549,15.5638640 46.3831339,15.5768663 46.3049817,15.3999291 46.2107348,15.0920437 46.2580111,14.9978388 46.1572976,14.9092200 46.1566376,14.7022720 46.2607111,14.5360170 46.2480931,14.1263391 46.4103707,14.0854331 46.3456697,14.3449422 46.2439625,14.2888766 46.1754014,14.1694025 46.2243806,14.0208196 46.1908226,13.9758168 46.2151488,13.8613214 46.1521274,13.7405114 46.1517053,13.5892663 46.0429026,13.6540007 45.9803812,13.5414132 45.9360773,13.4621074 45.9773688,13.4472835 46.1023534,13.2579187 46.1638984,13.2242063 46.2180766,13.1571393 46.2374116,13.1199813 46.3082309,13.0066989 46.2040558,12.8993936 46.1771437,12.7837671 46.2173135,12.6626592 46.1721413,12.4641308 45.9744456,12.3218659 45.9889409,12.0614432 45.8885745,11.9732199 45.8046935,11.7306049 45.7789106,11.6905104 45.6692969,11.5497769 45.5492421,10.9947116 45.4264543,10.6467999 45.4148126,10.2229812 45.5398142,10.0724897 45.6268417,9.6981482 45.7051193,9.4820192 45.7108578,9.3938339 45.8469855,9.0817548 45.7915638,8.8303102 45.8498015,8.5946776 45.8281027,8.6034874 45.7264338,8.4721306 45.7297915,8.3594415 45.6490805,8.3676175 45.6212560,8.2294959 45.5674897,8.0709724 45.5759779,8.0071494 45.5484498,8.0177238 45.4872742,8.1128912 45.4485124,8.0963283 45.4163224,7.9544934 45.4728686,7.8618827 45.4663952,7.8740053 45.5163946,7.8344668 45.5279822,7.8135966 45.4377311,7.7213286 45.3773524,7.6856230 45.3927846,7.6243085 45.3373085,7.6416540 45.3180935,7.5776174 45.3056582,7.6506039 45.2961434,7.7673336 45.2011513,7.4911307 45.2710209,7.6327508 45.1462110,7.4533412 45.1494253,7.5213431 45.0977610,7.4840925 45.0729146,7.5191113 45.0742482,7.5102827 45.0502354,7.4312207 45.0339872,7.4617245 44.9961361,7.3922365 44.9837368,7.3375423 44.9268235,7.3561232 44.8982248,7.3036771 44.8800257,7.2886109 44.8077119,7.3694719 44.7140033,7.3908770 44.6595762,7.3654810 44.6345411,7.4916123 44.6443317,7.4651755 44.5111389,7.3804734 44.4767500,7.4299942 44.4197423,7.4050831 44.4081413,7.4742080 44.3747305,7.4567967 44.3322845,7.6801297 44.3189358,7.7240750 44.3653424,7.7663037 44.3334265,7.8902188 44.4414235,8.0663365 44.3708365,8.2585859 44.3672749,8.3817569 44.3234890,8.4538464 44.2675581,8.4251685 44.1955041,8.2702305 44.1400442,8.1632441 43.9924443,8.1737590 43.9546525,8.0727132 43.8910706,7.6728163 43.7756906,7.5217854 43.7846226,7.3381862 43.7121361,7.3312890 43.6747060,7.3164340 43.7065890,7.2451832 43.6899480,7.2127787 43.6477792,7.1363844 43.6362918,7.1384248 43.5459191,7.0969284 43.5710089,7.0383594 43.5351360,6.9627311 43.5420135,6.9238041 43.4506657,6.8553753 43.4112579,6.7263432 43.4105747,6.4888570 43.4990947,6.1851508 43.7245292,6.0566321 43.7073205,5.8973716 43.7586369,5.9531013 43.9916175,6.0140732 44.0379717,5.9078079 44.1161905,5.6077400 44.1640858,5.1727893 44.1455561,5.2215076 44.5329603,5.1856609 44.6250831,5.0455740 44.6618870,5.0718976 44.8804909,5.2366217 45.0556444,5.3380790 45.0201915,5.3542453 45.1028808,5.5409937 45.2737853,5.8093368 45.4524208,6.1313383 45.8982612,6.3029101 46.0255890,6.4639091 46.0647152,6.3828017 46.0880291,6.3600548 46.1608231,6.2947452 46.1902526,6.3402048 46.2577135,6.4456447 46.2854182,6.5574916 46.3967682,6.7176255 46.4077390,6.9229008 46.3703866,6.8975543 46.4496445,6.9485103 46.5863082,7.1100571 46.6044214,7.1090095 46.6764955,7.1846454 46.7239635,7.3008389 46.7220644,7.4679232 46.7806746,7.5143036 46.7239635,7.6236941 46.7109588,7.6534451 46.7848278,7.8528812 46.8137692,7.9496559 46.9095187,8.1131471 46.9926880,8.3516498 47.0308198,8.5025465 47.1253669,8.8458471 47.2141616,8.8909713 47.3391339,8.8651634 47.3530018,8.8933106 47.3657359,8.8612219 47.3810528,8.8532458 47.4701787,9.0333336 47.4032766,9.3994783 47.4112582,9.4782893 47.4899604,9.6460256 47.5259531,9.6810190 47.4918770,9.7457813 47.5056401,9.7351570 47.5465009,9.8043713 47.6210362,10.0028403 47.6134535,10.0738676 47.6649554,10.0731556 47.7580134,10.1392300 47.7787037,10.2378822 47.7325427,10.2747572 47.6803550,10.2695329 47.6122346,10.4324899 47.6539432,10.4534831 47.6203865,10.6416469 47.5691194,10.7297731 47.5950506,10.7399984 47.6530289,10.8272143 47.7172183,10.9267735 47.7289429,10.9826778 47.6765305,11.1289912 47.6410262,11.2962362 47.6841559,11.3302912 47.6439126,11.4088793 47.7413381,11.6663274 47.7684173,11.7558837 47.7396326,11.8897662 47.8058691,12.1011242 47.8450447,12.3121763 47.8014558,12.3564606 47.8226906,12.4576651 47.7651793,12.8154408 47.8427166,12.8817350 47.7733953,12.9951668 47.7649745,13.0575378 47.7230754,13.0828916 47.7318759,13.0760664 47.7831268,13.0061330 47.8504333,13.5057669 48.0232320,13.8075319 47.9904333,13.8151925 47.9490839,13.9498898 47.9605026,14.1236108 47.8670777,14.1967389 47.9487762,14.4607541 47.9158821,14.5944990 47.9334214,14.7362964 47.9927654,14.8536461 48.1179402,15.0112398 48.1154615,15.1258194 48.2095161,15.3486454 48.2435391,15.4030703 48.2859552,15.4111604 48.3567616,15.4978372 48.4091777,15.5317182 48.3840096,15.8504791 48.3796981,15.9420596 48.3399262,16.2858463 48.3514949,16.4129149 48.2228847,16.5637843 48.1385371)))</geosparql:asWKT>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/geometry/67 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/geometry/67">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP5_Geometric_Place_Expression"/>
+        <crmgeo:Q9_is_expressed_in_terms_of rdf:resource="http://www.opengis.net/def/crs/OGC/1.3/CRS84"/>
+        <geosparql:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">&lt;gml:Polygon srsName=&apos;http://www.opengis.net/def/crs/OGC/1.3/CRS84&apos;&gt;
+  &lt;gml:outerBoundaryIs&gt;
+    &lt;gml:LinearRing&gt;
+      &lt;gml:coordinates&gt;
+        11.016495,45.705727 11.041493,45.706759 11.056163,45.717549 11.071733,45.704753 11.094534,45.69332 11.108676,45.694959 11.103781,45.668092 11.095913,45.670083 11.090805,45.66403 11.063715,45.649281 
+        11.060197,45.639274 11.065305,45.632744 11.064982,45.626566 11.043661,45.59981 11.05147,45.584534 11.042151,45.580928 11.033045,45.587668 11.016763,45.587573 11.00968,45.591773 10.996828,45.592826 
+        10.999999,45.604295 11.011362,45.638494 11.011421,45.648809 11.015696,45.652818 11.028391,45.679962 11.016396,45.692457 11.016495,45.705727 
+      &lt;/gml:coordinates&gt;
+    &lt;/gml:LinearRing&gt;
+  &lt;/gml:outerBoundaryIs&gt;
+&lt;/gml:Polygon&gt;
+</geosparql:asGML>
+        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">&lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; POLYGON ((11.016495 45.705727, 11.041493 45.706759, 11.056163 45.717549, 11.071733 45.704753, 11.094534 45.69332, 11.108676 45.694959, 11.103781 45.668092, 11.095913 45.670083, 11.090805 45.66403, 11.063715 45.649281, 11.060197 45.639274, 11.065305 45.632744, 11.064982 45.626566, 11.043661 45.59981, 11.05147 45.584534, 11.042151 45.580928, 11.033045 45.587668, 11.016763 45.587573, 11.00968 45.591773, 10.996828 45.592826, 10.999999 45.604295, 11.011362 45.638494, 11.011421 45.648809, 11.015696 45.652818, 11.028391 45.679962, 11.016396 45.692457, 11.016495 45.705727))</geosparql:asWKT>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880">
+        <rdf:type rdf:resource="Narrative"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Narrative"/>
+        <current:P48_has_preferred_identifier rdf:resource="https://tool.dlnarratives.eu/storymaps/moving.52/N2880/"/>
+        <ontology:isAboutCountry rdf:resource="https://dlnarratives.eu/resource/Q38"/>
+        <ontology:isAboutLAU rdf:resource="https://dlnarratives.eu/place/67"/>
+        <rdfs:label>With a open-air grazing in a regional natural park, it is produced and processed high-quality milk</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/creation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/creation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <current:P14_carried_out_by rdf:resource="https://dlnarratives.eu/narrator/moving.52"/>
+        <current:P94_has_created rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/natural_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/With_a_open-air_grazing_in_a_regional_natural_park,_it_is_produced_and_processed_high-quality_milk"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q334508"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q38"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q841774"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q8502"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The MOVING reference member state of this VC (Value Chain) is ITALY UNIMOL and UNIPI. The reference MOVING Card ID of this VC is VC 48 IT. The &amp;apos;Latte del Parco&amp;apos; farm is strongly linked to the natural and cultural context of the mountains (i.e. the SES) for its natural resources (e.g. mountain pastures) and cultural aspects (mountain milk production, cheeses, etc.). VC intersects different sectors but not different SES. It has some certifications that attest to its mountain productions. The farmer collaborates with the nature park authority by being one of the Info Points for tourists. &amp;apos;Latte del Parco&amp;apos; also has relations with schools in the area (educational workshops). The VC has positive impacts on the SES, but not collaboration with other breeders is reported.  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev10 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev10">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Innovation"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q1006733"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q174165"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The type of innovation of this VC (Value Chain) is unspecified. The VC includes several processed products beyond the local dairy tradition (such as ice creams and parfaits from farm milk), and the farmer offers informative tourist services. The innovation is related to the whole VC. The land use systems involved are Cropland, Grassland and Natural land. The local assets include Natural and cultural.  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/natural_event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Mountain_landscape_and_reference_chains"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/46.0_10.0"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/56"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q107425"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q1243"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q1286"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q15284"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q2028"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q3376"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q34876"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q46829"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q63817"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q641"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q8502"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q937540"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The reference mountain chain of this VC is Eastern Alps - Vicentine Alps. The reference mountain landscape of this VC is Bosco Chiesanuova. Bosco Chiesanuova is a municipality in Verona&amp;apos;s Province in the Italian region Veneto, located about 140 Km West of Venice and about 31 Km North of chief city Verona to the borders with Trento province. It represents the first ski centre of the Lessinia plateau, where winter sports can be practised. Here is also spoken the Cimbrian language (German idiom).  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Geography_and_population"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q1309100"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q22856"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q2625603"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The size of the area (km2) is 64.81. The minimum altimetry of the LAU (Local Administrative Unit) is 419. The maximum altimetry of the LAU is 1865. The total population (in thousand) is 3.531. The population density (Inhabitants/km2) in the LAU is 54.48. The population change rate of the LAU in the last 10 years (%) has been -2.06%. The overall regional population density (Inhabitants/km2) is 265.96. The regional population change rate in the last 10 years (%) has been 0.82%.  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Income_and_gross_value_added"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q55638"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q55639"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q55640"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q994873"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The average per capita income (EUR/year) [Province] is 34300. The total Gross Value Added (GVA) (EUR million/year) [Province] is 28434.9. The primary sector share of total GVA/year [Province] is 3.44%. The secondary sector share of total GVA/year [Province] is 25.61%. The tertiary sector share of total GVA/year [Province] is 70.95%. The per capita income (EUR/year) [Region] is 33200. The total Gross Value Added (GVA) (EUR million/year) [Region] is 146253.3. The primary sector share of total GVA/year [Region] is 2.18%. The secondary sector share of total GVA/year [Region] is 31.86%. The tertiary sector share of total GVA/year [Region] is 65.96%.  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev5 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev5">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Tourism"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q9323634"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The total number of bed places (BPs) in tourist accommodations/year in the LAU (Local Administrative Unit) is 1245. The regional (Region) share of total BPs/year is 0.15%. The number of agricultural holdings in the LAU is 89. The nearest settlement with population over 100000 (km) is 31. In this region protected areas are present.  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Employment"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q55638"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q55639"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q55640"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q656365"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The primary sector share of total employment/year [Province] is 4.30%. The secondary sector share of total employment/year [Province] is 25.30%. The tertiary sector share of total employment/year [Province] is 70.40%. The primary sector share of total employment/year [Region] is 3.00%. The secondary sector share of total employment/year [Region] is 30.71%. The tertiary sector share of total employment/year [Region] is 66.29%.  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Interest_on_this_VC"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q131512"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q131596"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q22698"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q23392"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q637776"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q8495"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The farmer produces milk, dairy products (from cheese to yoghurt) and confectionery (e.g. parfaits and ice cream) in the &amp;apos;Lessinia&amp;apos; regional park, in a mountainous area. Cows are for seven months in open-air grazing. The production is certificated &amp;apos;mountain product&amp;apos; (MP) and labelled as &amp;apos;Product in the Lessinia Regional Park&amp;apos;. In the farm shop, there is an area equipped with benches and a play area for children. The farm shop is also a tourist info point for the nature park. The farmer organizes educational workshops for schools. This VC is strictly linked to the natural settings of SES and its cultural dairy tradition. New productions related to the farm&amp;apos;s milk are proposed (like ice creams) and information services on the park, too. The &amp;apos;Latte del Parco&amp;apos; farm emphasises the authenticity, traditionality and naturalness of its products. However, this marketing strategy is not particularly stressed.  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Key_local_assets"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q107425"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q131596"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q22698"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The farm uses the pastureland in the park for seven months and uses the natural and cultural landscape to distinguishing its production.   </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9">
+        <rdf:type rdf:resource="E5_Event"/>
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E5_Event"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/event-type/valorisation_event"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/appellation/Challenges"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088"/>
+        <current:P7_took_place_at rdf:resource="https://dlnarratives.eu/place/67"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q10943"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q484847"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q723897"/>
+        <ontology:hasEntity rdf:resource="https://dlnarratives.eu/resource/Q8495"/>
+        <ontology:partOfNarrative rdf:resource="https://dlnarratives.eu/narrative/N2880"/>
+        <ontology:hasDescription>The VC intersects different sectors (i.e., confectionery) to enhance the milk and the naturalistic context. The complexity of productions and services could make the VC less competitive because milk and cheese are not certified as organic. More over, the production&amp;apos;s territorial and historical identification is reported in a limited way. &amp;apos;Latte del Parco&amp;apos; does not use all the potentialities of e-commerce. No links with other breeders are reported. Overall the type of challenge faced by this VC is Current and Predicted. This VC is classified as Traditional.  </ontology:hasDescription>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/belief/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/belief/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/belief/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/belief/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition-set/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q38"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q841774"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q334508"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev1/proposition/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q8502"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev10/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev10/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev10/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev10/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev10/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev10/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev10/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev10/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev10/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev10/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q174165"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev10/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev10/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q1006733"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/10 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/10">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/10"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/11 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/11">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/11"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/12 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/12">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/12"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/5 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/5">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/6 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/6">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/6"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/7 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/7">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/7"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/8 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/8">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/8"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/belief/9 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/9">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/9"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/10 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/10">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/10"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/11 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/11">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/11"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/12 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/12">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/12"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/5 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/5">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/6 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/6">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/6"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/7 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/7">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/7"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/8 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/8">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/8"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/9 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition-set/9">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/9"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q1286"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/10 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/10">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q1243"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/11 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/11">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q2028"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/12 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/12">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q3376"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q937540"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q641"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q8502"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/5 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/5">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q63817"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/6 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/6">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q107425"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/7 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/7">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q46829"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P7_took_place_at"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/8 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/8">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q15284"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/9 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev2/proposition/9">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q34876"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/belief/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/belief/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition-set/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q22856"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q1309100"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev3/proposition/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q2625603"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/belief/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/belief/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/belief/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/belief/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition-set/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q994873"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q55638"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q55639"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev4/proposition/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q55640"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev5/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev5/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev5/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev5/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev5/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev5/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev5/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev5/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q9323634"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev5"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/belief/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/belief/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/belief/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/belief/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition-set/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q656365"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q55638"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q55639"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev6/proposition/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q55640"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/belief/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/belief/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/belief/5 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/5">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/belief/6 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/6">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/6"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/5 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/5">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/6 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition-set/6">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/6"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q131512"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q8495"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q637776"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q23392"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/5 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/5">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q22698"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/6 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev7/proposition/6">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q131596"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/belief/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/belief/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition-set/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q131596"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q22698"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev8/proposition/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q107425"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/belief/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/belief/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/belief/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/belief/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/belief/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/belief/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/belief/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/belief/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <crminf:J4_that rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition-set/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I4_Proposition_Set"/>
+        <current:P106_is_composed_of rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/4"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/1 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/1">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q8495"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/2 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/2">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q723897"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/3 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/3">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q10943"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/4 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrative/N2880/event/ev9/proposition/4">
+        <rdf:type rdf:resource="https://dlnarratives.eu/ontology#Proposition"/>
+        <ontology:propObject rdf:resource="https://dlnarratives.eu/resource/Q484847"/>
+        <ontology:propPredicate rdf:resource="http://erlangen-crm.org/current/P12_occurred_in_the_presence_of"/>
+        <ontology:propSubject rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+        <current:P3_has_note></current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/narrator/moving.52 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/narrator/moving.52">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E39_Actor"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/crminf/I2_Belief"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/belief/3"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1/belief/4"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/10"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/11"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/12"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/3"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/4"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/5"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/6"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/7"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/8"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2/belief/9"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3/belief/3"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/belief/3"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4/belief/4"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev5/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/belief/3"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6/belief/4"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/3"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/4"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/5"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7/belief/6"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8/belief/3"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/belief/1"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/belief/2"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/belief/3"/>
+        <ontology:holdsBelief rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9/belief/4"/>
+        <rdfs:label>moving.52</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/phenomenal_place/45.65380176755561_11.046343612981088">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP2_Phenomenal_Place"/>
+        <geosparql:hasDefaultGeometry rdf:resource="https://dlnarratives.eu/place/45.65380176755561_11.046343612981088"/>
+        <geosparql:hasGeometry rdf:resource="https://dlnarratives.eu/place/45.65380176755561_11.046343612981088"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/phenomenal_place/46.0_10.0 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/phenomenal_place/46.0_10.0">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP2_Phenomenal_Place"/>
+        <geosparql:hasDefaultGeometry rdf:resource="https://dlnarratives.eu/place/46.0_10.0"/>
+        <geosparql:hasGeometry rdf:resource="https://dlnarratives.eu/place/46.0_10.0"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/place/45.65380176755561_11.046343612981088 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/place/45.65380176755561_11.046343612981088">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP5_Geometric_Place_Expression"/>
+        <crmgeo:Q9_is_expressed_in_terms_of rdf:resource="http://www.opengis.net/def/crs/OGC/1.3/CRS84"/>
+        <geosparql:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">&lt;gml:Point srsName=&apos;http://www.opengis.net/def/crs/OGC/1.3/CRS84&apos;&gt;
+  &lt;gml:coordinates&gt;
+    11.046343612981088,45.65380176755561 
+  &lt;/gml:coordinates&gt;
+&lt;/gml:Point&gt;
+</geosparql:asGML>
+        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">&lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; POINT(11.046343612981088 45.65380176755561)</geosparql:asWKT>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/place/46.0_10.0 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/place/46.0_10.0">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP5_Geometric_Place_Expression"/>
+        <crmgeo:Q9_is_expressed_in_terms_of rdf:resource="http://www.opengis.net/def/crs/OGC/1.3/CRS84"/>
+        <geosparql:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">&lt;gml:Point srsName=&apos;http://www.opengis.net/def/crs/OGC/1.3/CRS84&apos;&gt;
+  &lt;gml:coordinates&gt;
+    10.0,46.0 
+  &lt;/gml:coordinates&gt;
+&lt;/gml:Point&gt;
+</geosparql:asGML>
+        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">&lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; POINT(10.0 46.0)</geosparql:asWKT>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/place/56 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/place/56">
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP2_Phenomenal_Place"/>
+        <geosparql:hasDefaultGeometry rdf:resource="https://dlnarratives.eu/geometry/56"/>
+        <geosparql:hasGeometry rdf:resource="https://dlnarratives.eu/geometry/56"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/place/67 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/place/67">
+        <rdf:type rdf:resource="SP2_Phenomenal_Place"/>
+        <rdf:type rdf:resource="https://dlnarratives.eu/crmgeo/SP2_Phenomenal_Place"/>
+        <geosparql:hasDefaultGeometry rdf:resource="https://dlnarratives.eu/geometry/67"/>
+        <geosparql:hasGeometry rdf:resource="https://dlnarratives.eu/geometry/67"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q1006733 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q1006733">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E19_Physical_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q1006733/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q1006733"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10"/>
+        <rdfs:comment>area with vegetation dominated by grasses</rdfs:comment>
+        <rdfs:label>grassland</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q107425 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q107425">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q107425/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q107425"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8"/>
+        <rdfs:comment>visible features of an area of land</rdfs:comment>
+        <rdfs:label>landscape</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q10943 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q10943">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E19_Physical_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q10943/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q10943"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+        <rdfs:comment>yellow or white, creamy or solid food made from the pressed curds of milk</rdfs:comment>
+        <rdfs:label>cheese</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q1243 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q1243">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q1243/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q1243"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>region in Italy</rdfs:comment>
+        <rdfs:label>Veneto</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q1286 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q1286">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q1286/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q1286"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>European mountain range</rdfs:comment>
+        <rdfs:label>Alps</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q1309100 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q1309100">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q1309100/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q1309100"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3"/>
+        <rdfs:comment>determination and measurement of altitude</rdfs:comment>
+        <rdfs:label>altimetry</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q131512 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q131512">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q131512/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q131512"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <rdfs:comment>person engaged in agriculture, raising living organisms for food or raw materials</rdfs:comment>
+        <rdfs:label>farmer</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q131596 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q131596">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q131596/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q131596"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8"/>
+        <rdfs:comment>area of land for farming, or, for aquaculture, lake, river or sea, including various structures</rdfs:comment>
+        <rdfs:label>farm</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q15284 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q15284">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q15284/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q15284"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>administrative division having corporate status and usually powers of self-government or jurisdiction</rdfs:comment>
+        <rdfs:label>municipality</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q174165 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q174165">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q174165/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q174165"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10"/>
+        <rdfs:comment>application of better solutions that meet new requirements, inarticulated needs, or existing market needs</rdfs:comment>
+        <rdfs:label>innovation</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q2028 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q2028">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q2028/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q2028"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>city in Veneto, northern Italy</rdfs:comment>
+        <rdfs:label>Verona</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q22698 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q22698">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q22698/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q22698"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8"/>
+        <rdfs:comment>permanently dedicated recreation area, often open to the public and generally characterized by natural, historic, or landscape features</rdfs:comment>
+        <rdfs:label>park</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q22856 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q22856">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q22856/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q22856"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3"/>
+        <rdfs:comment>measurement of population per unit area or unit volume</rdfs:comment>
+        <rdfs:label>population density</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q23392 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q23392">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q23392/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q23392"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <rdfs:comment>water frozen into the solid state</rdfs:comment>
+        <rdfs:label>ice</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q2625603 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q2625603">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q2625603/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q2625603"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3"/>
+        <rdfs:comment>ensemble of individuals of a species in an area, or their number</rdfs:comment>
+        <rdfs:label>population</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q334508 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q334508">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q334508/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q334508"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+        <rdfs:comment>vector&amp;apos;s differential operator</rdfs:comment>
+        <rdfs:label>nabla operator</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q3376 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q3376">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q3376/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q3376"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>Italian city in the North-East of the country</rdfs:comment>
+        <rdfs:label>Trento</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q34876 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q34876">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q34876/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q34876"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>administrative division in several countries</rdfs:comment>
+        <rdfs:label>province</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q38 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q38">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q38/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q38"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+        <rdfs:comment>country in Southern Europe</rdfs:comment>
+        <rdfs:label>Italy</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q46829 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q46829">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q46829/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q46829"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>Italian comune</rdfs:comment>
+        <rdfs:label>Bosco Chiesanuova</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q484847 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q484847">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q484847/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q484847"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+        <rdfs:comment>type of business industry usually conducted over the Internet</rdfs:comment>
+        <rdfs:label>e-commerce</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q55638 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q55638">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q55638/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q55638"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6"/>
+        <rdfs:comment>service sector</rdfs:comment>
+        <rdfs:label>tertiary sector of the economy</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q55639 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q55639">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q55639/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q55639"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6"/>
+        <rdfs:comment>industries that produce a finished, usable product or are involved in construction</rdfs:comment>
+        <rdfs:label>secondary sector of the economy</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q55640 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q55640">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q55640/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q55640"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6"/>
+        <rdfs:comment>includes farming, fishing &amp;amp; mining</rdfs:comment>
+        <rdfs:label>primary sector of the economy</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q637776 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q637776">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q637776/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q637776"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <rdfs:comment>business enterprise established for the processing of animal milk</rdfs:comment>
+        <rdfs:label>dairy</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q63817 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q63817">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q63817/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q63817"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>eastern parts of the Alps in Central Europe</rdfs:comment>
+        <rdfs:label>Eastern Alps</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q641 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q641">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q641/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q641"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>capital city of Veneto, Italy</rdfs:comment>
+        <rdfs:label>Venice</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q656365 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q656365">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q656365/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q656365"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev6"/>
+        <rdfs:comment>relationship between the employee and the employer</rdfs:comment>
+        <rdfs:label>employment</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q723897 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q723897">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q723897/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q723897"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+        <rdfs:comment>behavior of a system or model with many parts interacting in multiple ways</rdfs:comment>
+        <rdfs:label>complexity</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q841774 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q841774">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q841774/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q841774"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+        <rdfs:comment>coffee drink</rdfs:comment>
+        <rdfs:label>latte</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q8495 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q8495">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q8495/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q8495"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+        <rdfs:comment>white liquid produced by the mammary glands of mammals</rdfs:comment>
+        <rdfs:label>milk</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q8502 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q8502">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q8502/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q8502"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev1"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>large natural elevation of the Earth&amp;apos;s surface</rdfs:comment>
+        <rdfs:label>mountain</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q9323634 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q9323634">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q9323634/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q9323634"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev5"/>
+        <rdfs:comment>economic sector related to tourism</rdfs:comment>
+        <rdfs:label>tourism industry</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q937540 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q937540">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q937540/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q937540"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+        <rdfs:comment>mountain range</rdfs:comment>
+        <rdfs:label>Vicentine Alps</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q994873 -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q994873">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E89_Propositional_Object"/>
+        <current:P1_is_identified_by rdf:resource="https://dlnarratives.eu/resource/Q994873/appellation"/>
+        <sameAs rdf:resource="http://www.wikidata.org/entity/Q994873"/>
+        <ontology:isEntityOf rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev4"/>
+        <rdfs:comment>GVA adjusts gross domestic product (GDP) by the impact of subsidies and taxes (tariffs) on products.</rdfs:comment>
+        <rdfs:label>gross value added</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q1006733/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q1006733/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>grassland</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q107425/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q107425/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>landscape</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q10943/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q10943/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>cheese</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q1243/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q1243/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Veneto</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q1286/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q1286/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Alps</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q1309100/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q1309100/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>altimetry</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q131512/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q131512/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>farmer</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q131596/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q131596/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>farm</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q15284/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q15284/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>municipality</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q174165/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q174165/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>innovation</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q2028/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q2028/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Verona</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q22698/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q22698/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>park</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q22856/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q22856/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>population density</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q23392/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q23392/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>ice</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q2625603/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q2625603/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>population</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q334508/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q334508/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>nabla operator</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q3376/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q3376/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Trento</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q34876/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q34876/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>province</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q38/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q38/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Italy</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q46829/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q46829/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Bosco Chiesanuova</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q484847/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q484847/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>e-commerce</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q55638/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q55638/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>tertiary sector of the economy</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q55639/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q55639/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>secondary sector of the economy</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q55640/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q55640/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>primary sector of the economy</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q637776/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q637776/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>dairy</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q63817/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q63817/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Eastern Alps</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q641/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q641/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Venice</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q656365/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q656365/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>employment</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q723897/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q723897/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>complexity</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q841774/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q841774/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>latte</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q8495/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q8495/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>milk</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q8502/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q8502/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>mountain</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q9323634/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q9323634/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>tourism industry</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q937540/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q937540/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>Vicentine Alps</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://dlnarratives.eu/resource/Q994873/appellation -->
+
+
+    <NamedIndividual rdf:about="https://dlnarratives.eu/resource/Q994873/appellation">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E41_Appellation"/>
+        <current:P3_has_note>gross value added</current:P3_has_note>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tool.dlnarratives.eu/images/interestVC.png -->
+
+
+    <NamedIndividual rdf:about="https://tool.dlnarratives.eu/images/interestVC.png">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <current:P67_refers_to rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev7"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/1.jpg -->
+
+
+    <NamedIndividual rdf:about="https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/1.jpg">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <current:P67_refers_to rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/2.jpg -->
+
+
+    <NamedIndividual rdf:about="https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/2.jpg">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <current:P67_refers_to rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev3"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/3.jpg -->
+
+
+    <NamedIndividual rdf:about="https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/3.jpg">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <current:P67_refers_to rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev5"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/4.jpg -->
+
+
+    <NamedIndividual rdf:about="https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/4.jpg">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <current:P67_refers_to rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev9"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/5.jpg -->
+
+
+    <NamedIndividual rdf:about="https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/5.jpg">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <current:P67_refers_to rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev8"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/6.jpg -->
+
+
+    <NamedIndividual rdf:about="https://tool.dlnarratives.eu/images/MOVING/ITALY_UNIMOL_&amp;amp;_UNIPI/6.jpg">
+        <rdf:type rdf:resource="http://erlangen-crm.org/current/E73_Information_Object"/>
+        <current:P67_refers_to rdf:resource="https://dlnarratives.eu/narrative/N2880/event/ev10"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tool.dlnarratives.eu/storymaps/moving.52/N2880/ -->
+
+
+    <NamedIndividual rdf:about="https://tool.dlnarratives.eu/storymaps/moving.52/N2880/"/>
+        </rdf:RDF>
